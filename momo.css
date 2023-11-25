@@ -1,0 +1,180 @@
+/*this is were i create my navigator bar*/
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar a {
+    color: goldenrod;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin-top: 0vh;
+    padding: 2vh;
+}
+
+.nav-bar > ul > li > a {
+    padding: 10px;
+    background: white;
+    border-radius: 6vh;
+}
+
+.nav-bar > ul > li > a:hover{
+    background: gold;
+    color: aqua;
+}
+
+.nav-bar .active{
+    background: blue;
+    color: gold;
+}
+
+.nav-bar > UL > li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+body{
+    background: red;
+}
+.pin{
+    text-align: center;
+    font-size: 27vh;
+    color: gold;
+    background: blue;
+    width: max-content;
+    margin-left: 445px;
+    transform: rotate(45deg);
+    text-shadow: 1vh 1vh 1vh rgb(244, 101, 101);
+}
+.pin a:hover{
+    color: red;
+    background: gold;
+    transform: rotate(63deg);
+}
+.pin a:active{
+    color: gold;
+}
+.pin a:link{
+    background-color: gold;
+    text-decoration-line: none;
+}
+#momo{
+    text-align: center;
+    background-color: blue;
+    color: gold;
+    padding-top: 2.1vh;
+    padding-bottom: 1.2vh;
+    padding-left: -2.1vh;
+    padding-right: 2.1vh;
+    font-size: 30vh;
+    border: thick solid gold;
+    border-bottom: dashed red;
+    border-width: 20px;
+    border-top: inset;
+    border-radius: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#PSB{
+    width: max-content;
+    text-align: center;
+    color: gold;
+    background: blue center;
+    text-shadow: 3px 3px 4px lightcoral;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 550px;
+    border-bottom: 4px solid gold;
+    border-radius: 12px;
+}
+.open{
+    color: gold;
+    font-size: 40px;
+    background-color: blue;
+    text-shadow: 4px 3px 5px rgb(95, 193, 118);
+    opacity: initial 1.8px;
+    width: fit-content;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin-left: 340px;
+    border: thick;
+    border-radius: 10px;
+    border-bottom: 20px;
+    border-color: gold;
+}
+.describ{
+    background-color: blue;
+    color: gold;
+    width: fit-content;
+    height: fit-content;
+    border: 20px rgb(255, 217, 5) groove;
+    font-size: 20px;
+    margin-top: 30px;
+    font-size: xx-large;
+    text-indent: 20vh;
+    text-align: center;
+    border-radius: 4vh;
+    margin-right: 4%;
+}
+.all{
+    background-color: blue;
+    background-size: 200vh;
+    width: fit-content;
+    font-size: xx-large;
+    color: gold;
+    border-top: 20px gold groove;
+    border-bottom: 20px gold groove;
+    text-align: center;
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+    border-radius: 17vh;
+}
+img{
+    width: 220vh;
+    height: 60vh;
+    border-radius: 10vh;
+    margin-right: 50vh;
+    background-clip: border-box gold;
+}
+
+p:target{
+    background: gold;
+    color: red;
+    padding: 10px;
+    transition-duration: 2s;
+    border: groove blue;
+    font-size: xx-large;
+}
+
+#article:target{
+    background: blue;
+    color: gold;
+    padding: 10px;
+    transition-duration: 2s;
+    border-bottom: 7vh gold;
+    max-width: max-content;
+    font-size: xx-large;
+    display: block;
+}
+.change{
+    background-color: blue;
+    max-width: max-content;
+    border-radius: 3vh;
+    border-bottom: 12vh;
+    border-right: solid;
+    color: gold;
+    font-size: x-large;
+}
+
+.article > li > a{
+    text-orientation: sideways;
+}

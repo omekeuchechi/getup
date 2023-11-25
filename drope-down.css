@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+}
+.dd{
+    position: relative;
+    display: inline-block;
+}
+
+.dd-btn{
+    padding: 15px;
+    text-align: center;
+    background: limegreen;
+    border: none;
+    width: 340px;
+    color: yellow;
+}
+
+.dd-content{
+    position: absolute;
+    width: 100%;
+    box-shadow: .6px .6px 2px 3px rgb(151, 255, 133);
+    height: 0px;
+    transition: height 1s;
+    overflow: hidden;
+    background: red;
+}
+
+.dd:hover>.dd-content{
+    height: 180px;
+}
+
+.dd-content>a{
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    color: yellow;
+}

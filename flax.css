@@ -1,0 +1,29 @@
+body{
+    background: green;
+}
+.long{
+    background: lawngreen;
+}
+
+#nowrap{
+    flex-wrap: wrap;
+}
+
+.bgcont{
+    display: flex;
+    padding: 10px;
+}
+
+.bgcont > div > img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+.bgcont > div{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    background: gold;
+    font-size: x-large;
+    color: red;
+}

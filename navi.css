@@ -1,0 +1,76 @@
+body{
+    background-color: skyblue;
+}
+*{
+    box-sizing: border-box;
+}
+
+html,  body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: blue;
+    display: block;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar > ul > li > a:hover{
+    background-color: chartreuse;
+    color: red;
+}
+
+.nav-bar .active{
+    background: green;
+    color: aqua;
+}
+
+.nav-bar li:last-child{
+    border: none;
+}
+
+.nav-bar li{
+    float: left;
+    width: 24%;
+    text-align: center;
+    border-right: 1px solid #333;
+    display: block;
+}
+
+.btr{
+    background-color: rgba(95, 255, 252, 0.831);
+    max-width: max-content;
+    margin-left: 70vh;
+    margin-top: 30px;
+    border-radius: 10vh;
+    border-bottom: 10vh solid red;
+    border-top: 10vh solid blue;
+}
+img{
+    height: 70vh;
+    width: 60vh;
+    margin-left: 10vh;
+}
+
+.top{
+    color: red;
+    font-style: oblique;
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1vh 1vh 1vh blue;
+}
+.bottom{
+    
+    color: blue;
+    font-style: oblique;
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1vh 1vh 1vh red;
+}

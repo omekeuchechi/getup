@@ -1,0 +1,47 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+    color: blue;
+}
+
+body{
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background: black;
+}
+
+.move{
+    transform: translate(30px, 40px);
+    background: red;
+}
+/*  */
+.yard{
+    width: 200px;
+    height: 200px;
+    background: orange;
+}
+
+.controle{
+    transform: translateX(50px);
+    background-color: aqua;
+}
+
+.clockwise{
+    transform: rotate(45deg);
+    background: green;
+}
+
+.counter-clockwise{
+    transform: rotate(-90deg);
+    background: blue;
+}
+
+.content{
+    align-content: space-around;
+}
